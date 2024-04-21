@@ -1,0 +1,52 @@
+/* Navbar styles */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Animated text styles */
+.animated-text-container {
+  width: 500px;
+  height: 100px;
+  background-color: brown;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0% {
+    background-color: rgb(220, 21, 21);
+    left: 0%;
+    top: 0%;
+  }
+  25% {
+    background-color: blue;
+    left: 100%;
+    top: 0%;
+  }
+  50% {
+    background-color: pink;
+    left: 0%;
+    top: 0%;
+  }
+  100% {
+    background-color: green;
+    left: 0%;
+    top: 0%;
+  }
+}
